@@ -47,8 +47,9 @@ Revenue trend by month, top product categories, and top sellers by city — buil
 ## Running it locally
 
 ```bash
-git clone <your-repo-url>
-cd data-eng-project
+git clone https://github.com/btdat110/olist-etl-pipeline.git
+cd olist-etl-pipeline
+mkdir -p data
 
 # 1. Download the Olist dataset from Kaggle and place the 7 CSVs in data/
 #    https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
