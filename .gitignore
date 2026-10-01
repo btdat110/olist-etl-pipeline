@@ -12,3 +12,4 @@ dbt_project/dbt_packages/
 
 # macOS
 .DS_Store
+.idea/
