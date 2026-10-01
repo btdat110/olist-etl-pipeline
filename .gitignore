@@ -1,0 +1,14 @@
+# Dataset CSVs — không đẩy lên GitHub (quá nặng, và người khác tự tải theo hướng dẫn README)
+data/*.csv
+
+# Airflow runtime
+logs/
+__pycache__/
+*.pyc
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+
+# macOS
+.DS_Store

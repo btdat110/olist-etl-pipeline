@@ -1,0 +1,12 @@
+olist_dw:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('DW_HOST', 'localhost') }}"
+      port: "{{ env_var('DW_PORT', '5432') | as_number }}"
+      user: "{{ env_var('DW_USER', 'dwuser') }}"
+      password: "{{ env_var('DW_PASSWORD', 'dwpass') }}"
+      dbname: "{{ env_var('DW_DB', 'datawarehouse') }}"
+      schema: public
+      threads: 4
